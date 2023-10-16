@@ -27,17 +27,17 @@ public partial class MainPage : ContentPage
 
     private void OnHorizontalStart(object sender, EventArgs e)
     {
-        target.VerticalOptions = LayoutOptions.Start;
+        target.HorizontalOptions = LayoutOptions.Start;
     }
 
     private void OnHorizontalCenter(object sender, EventArgs e)
     {
-        target.VerticalOptions = LayoutOptions.Center;
+        target.HorizontalOptions = LayoutOptions.Center;
     }
 
     private void OnHorizontalEnd(object sender, EventArgs e)
     {
-        target.VerticalOptions = LayoutOptions.End;
+        target.HorizontalOptions = LayoutOptions.End;
     }
 
 
