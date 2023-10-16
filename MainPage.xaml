@@ -10,7 +10,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <!-- First row with a HorizontalStackLayout -->
+       
         <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" Grid.Row="0">
             <Label Text="Vertical" VerticalOptions="Center" />
             <Button Text="Start" Clicked="OnVerticalStart" />
@@ -18,7 +18,7 @@
             <Button Text="End" Clicked="OnVerticalEnd" />
         </HorizontalStackLayout>
 
-        <!-- Second row with another HorizontalStackLayout -->
+       
         <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" Grid.Row="1">
             <Label Text="Horizontal" VerticalOptions="Center" />
             <Button Text="Start" Clicked="OnHorizontalStart" />
@@ -26,7 +26,7 @@
             <Button Text="End" Clicked="OnHorizontalEnd" />
         </HorizontalStackLayout>
 
-        <!-- Third row with the Image control -->
+       
         <Image x:Name="target" HeightRequest="120" WidthRequest="120" Grid.Row="2" Source="superman.png" />
     </Grid>
  
